@@ -1,2 +1,24 @@
-<h1>StaticPages#home</h1>
-<p>Find me in app/views/static_pages/home.html.erb</p>
+<h1>Bienvenido al proyecto 1 del bootcamp Ruby on Rails Con VOSAVOS</h1>
+
+<nav>
+    <ul>
+        <li>
+            <a href='./basics'>Basics</a>
+        </li>            
+        <li>
+            <a href='./ruby'>Ruby</a>
+        </li> 
+        <li>
+            <a href='./git'>Git</a>
+        </li> 
+    <ul>
+<nav>
+
+<p>
+    Hoy es:
+    <%= I18n.l(Date.today, format: '%A, %d de %B de %Y') %>    
+</p>
+<p>
+    Hora:
+    <%= Time.now.strftime('%H:%M') %>
+</p>
