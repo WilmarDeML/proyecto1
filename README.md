@@ -21,10 +21,8 @@ a través de internet como un subdominio de Heroku (e.g XXXX.herokuapp.com).
     * El subdominio de Heroku debe ser personalizado
 
 ## Sobre las páginas:
-### El home debe contener links hacia las otras 3 páginas estáticas y la fecha y hora 
-actual.
-### La página estática 1 debe ser accedida a través del path /basics y debe responder 
-las siguientes preguntas con sus propias palabras:
+### El home debe contener links hacia las otras 3 páginas estáticas y la fecha y hora actual.
+### La página estática 1 debe ser accedida a través del path /basics y debe responder las siguientes preguntas con sus propias palabras:
 * Qué es un resource en el contexto de una aplicación web REST en Ruby on 
     Rails?
 * Qué puede hacerse con un resource?
@@ -32,8 +30,7 @@ las siguientes preguntas con sus propias palabras:
     ■ Cuantas acciones básicas tiene esta filosofía?
     ■ Cuales son?
     ■ Cuales verbos HTTP se utilizan en cada una de ellas?
-### La página estática 2 debe ser accedida a través del path /ruby y debe contener un 
-resumen de cómo se realizan las siguientes acciones en ruby:
+### La página estática 2 debe ser accedida a través del path /ruby y debe contener un resumen de cómo se realizan las siguientes acciones en ruby:
 * Interpolación de strings
 * Cómo se declara un array y cómo se adiciona un elemento al final del array
 * Cómo se itera un array utilizando el comando each
@@ -42,9 +39,7 @@ resumen de cómo se realizan las siguientes acciones en ruby:
 * Que es un block en ruby? De un ejemplo de cómo utilizarlo
 * Cual es la convención en Ruby a la hora de nombrar variables?
 * Qué son attr_reader, attr_writer y attr_accesor? Para qué sirven?
-### La página estática 3 debe ser accedida a través del path /git y debe contener un 
-resumen de cómo se realizan las siguientes acciones usando solamente git por 
-consola:
+### La página estática 3 debe ser accedida a través del path /git y debe contener un resumen de cómo se realizan las siguientes acciones usando solamente git por consola:
 * Inicialización de un repositorio de git nuevo en una aplicación existente
 * Creación de un branch nuevo
 * Realizar un commit incluyendo todos los cambios actuales
