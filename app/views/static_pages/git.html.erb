@@ -19,61 +19,39 @@
         </ol>
     </li>
     <li>
-        <h4>Declaración de un arreglo</h4>
+        <h4>Creación de un branch nuevo</h4>
         <p>
-            arr = []  #=> Arreglo vacío
-        </p>
-        <p>
-            arr = Array.new #=> Crea un arreglo vacío también
+            git checkout -b name_new_branch
         </p>
     </li>
     <li>
-        <h4>Adicionar elemento al final</h4>
-        <p>arr.push(elemento) ó arr << elemento </p>
+        <h4>Realizar un commit incluyendo todos los cambios actuales</h4>
+        <p>git commit -am 'message commit'</p>
     </li>
     <li>
-        <h4>Iterar con el comando each </h4>
-        <p>arr.each do |elemento|</p>
-        <p>... code...</p>
-        <p>end</p>
+        <h4>Enviar código al repositorio remoto</h4>
+        <p>git push</p>
     </li>
     <li>
-        <h4>Declaración de un hash</h4>
-        <p>
-            h = {}  #=> hash vacío #=> {}
-        </p>
-        <p>
-            h = Hash[]  #=> hash vacío #=> {}
-        </p>
-        <p>
-            h = Hash.new #=> Crea un hash vacío también #=> {}
-        </p>
+        <h4>Configurar origen del repositorio remoto para evitar escribirlo</h4>
+        <p>git push -u origin name_repo</p>
     </li>
     <li>
-        <h4>Iterar un hash con el comando each</h4>
-        <p>
-            h.each do |llave, valor|
-        </p>
-        <p>... code...</p>
-        <p>end</p>
+        <h4>Diferencia entre reset y revert</h4>
+        <p><strong>Reset:</strong> Es para deshacer commits</p>
+        <p><strong>Revert</strong> Es para cambiar commits y deshacer cambios hechos en dichos commits</p>
     </li>
     <li>
-        <h4>Qué es un blog en ruby?</h4>
-        <p>
-            Promise: Pendiente
-        </p>
+        <h4>Comando checkout</h4>
+        <p>Sirve para cambiar entre ramas, inspeccionar commits antiguos</p>
+        <p>También sirve para restaurar archivos del árbol de trabajo
     </li>
     <li>
-        <h4>Convención para nombrar variables en Ruby</h4>
-        <p>Mayúsculas para Constantes y no podrá asignársele otro valor</p>
-        <p>minúsculas para variables se le puede asignar diferentes valores</p>
-        <p>end</p>
+        <h4>Cómo ver los commits que se han realizado en un proyecto</h4>
+        <p>git log</p>
     </li>
     <li>
-        <h4>Qué son attr_reader, attr_writer y attr_accesor? Para qué sirven?
-        </h4>
-        <p>
-            Promise: Pendiente
-        </p>
+        <h4>Hacer commit para cada archivo modificado</h4>
+        <p>git commit -m "message" name_archivo</p>
     </li>
 </ul>
