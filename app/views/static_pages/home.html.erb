@@ -16,9 +16,9 @@
 
 <p>
     Hoy es:
-    <%= I18n.l(Date.today, format: '%A, %d de %B de %Y') %>    
+    <%= Time.now.strftime('%A, %d de %B de %Y') %>    
 </p>
 <p>
     Hora:
-    <%= Time.now.strftime('%H:%M') %>
+    <%= Time.now.in_time_zone('Bogota').strftime('%H:%M') %>
 </p>
